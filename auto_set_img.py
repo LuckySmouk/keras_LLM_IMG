@@ -37,8 +37,8 @@ def resize_and_rename_images(input_folder, output_folder, target_size):
 
 
 # Пример использования:
-input_folder_path = "C:/Py/data/ll_keras/Result/B"
-output_folder_path = "C:/Py/data/ll_keras/Result/B/es"
+input_folder_path = "image path for editing"
+output_folder_path = "path to edited images"
 target_size = (128, 128)  # Задайте необходимый размер
 
 resize_and_rename_images(input_folder_path, output_folder_path, target_size)
