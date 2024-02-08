@@ -7,17 +7,17 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.layers import Activation, Dropout, Flatten, Dense
 
 # Путь сохраненной модельки
-model_path = 'C:/Py/data/ll_keras/model/model_test.keras'
+model_path = 'path to a trained model'
 
 # Размеры изображения
 img_width, img_height = 128, 128
 
 # Путь к данным для обучения
-train_data_dir = 'C:/Py/data/ll_keras/img'
+train_data_dir = 'learning data path'
 nb_train_samples = len(os.listdir(train_data_dir))
 
 # Путь к данным для валидации
-validation_data_dir = 'C:/Py/data/ll_keras/Result'
+validation_data_dir = 'validation data path'
 nb_validation_samples = len(os.listdir(validation_data_dir))
 
 # Количество эпох
