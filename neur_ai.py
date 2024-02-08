@@ -3,7 +3,7 @@ from keras.preprocessing import image
 import numpy as np
 
 # Путь к сохраненной модели
-model_path = 'C:/Py/data/ll_keras/model/model_test.keras'
+model_path = 'path to a trained model'
 
 # Загрузка модели
 loaded_model = load_model(model_path)
@@ -25,5 +25,5 @@ def predict_image_class(image_path):
 
 
 # Пример использования
-image_path_to_check = 'C:/Py/data/ll_keras/test_img/0002.jpg'
+image_path_to_check = 'test img path'
 predicted_class = predict_image_class(image_path_to_check)
